@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File: app/src/main/res/values/styles.xml -->
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.StarAnnotationApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize the primary and secondary brand colors -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <!-- Status bar (for older Android) and navigation bar colors can also be set if desired -->
+        <item name="android:statusBarColor">@color/purple_700</item>
+    </style>
+
+    <!-- You could define a NoActionBar variant if needed, but the parent already has no ActionBar -->
+    <style name="Theme.StarAnnotationApp.NoActionBar" parent="Theme.StarAnnotationApp">
+        <!-- Inherit all, no extra changes currently -->
+    </style>
+</resources>
